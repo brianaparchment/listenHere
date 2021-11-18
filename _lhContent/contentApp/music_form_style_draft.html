@@ -1,0 +1,310 @@
+<html><head>
+	<meta http-equiv="content-type" content="text/html;charset=iso-8859-1">
+	<!--<meta name="description" content="The Website of INF 465: Programming for Informatics.">-->
+	<title>Listening Here Content</title>
+	<!--<meta name="Author" content="Cristyn Magnus">
+	<meta name="KEYWORDS" content="Cristyn Magnus, Informatics, INF 465">-->
+	<link rel="STYLESHEET" type="text/css" href="content.css">
+</head>
+<body>
+
+<header>
+  <div class="logo">
+    <a href="#"><img class="imglog" src="test2.png"></a>
+</header>
+
+
+<div id="music_form_style">
+  <h1>Music Form</h1>
+
+  <li><span class="buttonAdd" id="sectionAdd">Add New</span></li>
+<form action="" method="post">
+
+
+
+  <div class="parent">
+    <div class="first"><strong>Name:</strong>
+
+  <select name="workName" id="workName">
+    <option value="1">work1</option>
+    <option value="2">work2</option>
+    <option value="3">work3</option>
+  </select>
+</div>
+
+  
+    <div class="second"><strong>DURATION</strong></div>
+  
+
+  
+    <div class="third"><strong>OPERATIONS</strong></div>
+</div>
+
+<div class="container">
+  <div class="draggable" draggable="true">
+
+
+
+    <ul id="section">
+      <li id="sectionItem0">
+        <div class="buttonDelete" id="buttonDeleteSection0" data="0">Delete Section</div>
+       <!--<div class="buttonUp" id="buttonSectionUp0" data="0">Up Section</div>
+        <div class="buttonDown" id="buttonSectionDown0" data="0">Down Section</div>-->
+        <label for="duration0" id="durationLabel0">Duration:</label>
+    <input type="number" value="1" min="1" name="duration0" id="duration0">
+    <ul id="typeItem0">
+      <li class="typeHolder" id="typeHolder0.0"><select name="typeItem0.0" id="typeItem0.0">
+        <option value="1">near</option>
+        <option value="2">far</option>
+        <option value="3">quiet</option>
+        <option value="4">loud</option>
+        <option value="5">rhythmic</option>
+        <option value="8">sustained</option>
+        <option value="10">a</option>
+        <option value="11">b</option>
+        <option value="12">c</option>
+        <option value="13">d</option>
+        <option value="14">e</option>
+        <option value="15">a</option>
+        <option value="16">a</option>
+        <option value="17">coconut</option>
+        <option value="18">coconut</option>
+        <option value="19">coconut</option>
+        <option value="20">crab cakes</option>
+        <option value="21">chocolate</option>
+        <option value="22">chocolate </option>
+        <option value="23">chocolate </option>
+        <option value="24">blueberry</option>
+        <option value="25">ada</option>
+        <option value="26">ada</option>
+        <option value="27">blueberry</option>
+        <option value="28">rara</option>
+        <option value="29">rara</option>
+        <option value="30">1</option>
+        <option value="31">r</option>
+        <option value="32">erre</option>
+        <option value="33">rwarsda</option>
+        <option value="34">rwarsda</option>
+        <option value="35">rwarsda</option>
+        <option value="36">rwarsda</option>
+        <option value="37">awea</option>
+        <option value="38">dadw</option>
+        <option value="39">raradad</option>
+        <option value="40">dadw</option>
+        <option value="41">null</option>
+        <option value="42">lobster</option>
+      </select>
+      <span class="buttonDelete" id="typeItemDelete0.0">Delete</span>
+    </li>
+  </ul>
+    <li id="typeItemEnd0"><span class="buttonAdd" id="typeAdd0">Add Type</span></li>
+
+
+
+
+
+  </div>
+  <div class="draggable" draggable="true">TEST1
+    
+
+
+    <!--!<ul id="section">
+      <li id="sectionItem0">
+        <div class="buttonDelete" id="buttonDeleteSection0" data="0">Delete Section</div>
+       <div class="buttonUp" id="buttonSectionUp0" data="0">Up Section</div>
+        <div class="buttonDown" id="buttonSectionDown0" data="0">Down Section</div>
+        <label for="duration0" id="durationLabel0">Duration:</label>
+    <input type="number" value="1" min="1" name="duration0" id="duration0">
+    <ul id="typeItem0">
+      <li class="typeHolder" id="typeHolder0.0"><select name="typeItem0.0" id="typeItem0.0">
+        <option value="1">near</option>
+        <option value="2">far</option>
+        <option value="3">quiet</option>
+        <option value="4">loud</option>
+        <option value="5">rhythmic</option>
+        <option value="8">sustained</option>
+        <option value="10">a</option>
+        <option value="11">b</option>
+        <option value="12">c</option>
+        <option value="13">d</option>
+        <option value="14">e</option>
+        <option value="15">a</option>
+        <option value="16">a</option>
+        <option value="17">coconut</option>
+        <option value="18">coconut</option>
+        <option value="19">coconut</option>
+        <option value="20">crab cakes</option>
+        <option value="21">chocolate</option>
+        <option value="22">chocolate </option>
+        <option value="23">chocolate </option>
+        <option value="24">blueberry</option>
+        <option value="25">ada</option>
+        <option value="26">ada</option>
+        <option value="27">blueberry</option>
+        <option value="28">rara</option>
+        <option value="29">rara</option>
+        <option value="30">1</option>
+        <option value="31">r</option>
+        <option value="32">erre</option>
+        <option value="33">rwarsda</option>
+        <option value="34">rwarsda</option>
+        <option value="35">rwarsda</option>
+        <option value="36">rwarsda</option>
+        <option value="37">awea</option>
+        <option value="38">dadw</option>
+        <option value="39">raradad</option>
+        <option value="40">dadw</option>
+        <option value="41">null</option>
+        <option value="42">lobster</option>
+      </select>
+      <span class="buttonDelete" id="typeItemDelete0.0">Delete</span>
+    </li>
+  </ul>
+    <li id="typeItemEnd0"><span class="buttonAdd" id="typeAdd0">Add Type</span></li>-->
+
+
+
+
+
+  </div>
+  <div class="draggable" draggable="true">TEST2
+    
+
+   <!-- <ul id="section">
+      <li id="sectionItem0">
+        <div class="buttonDelete" id="buttonDeleteSection0" data="0">Delete Section</div>
+        <div class="buttonUp" id="buttonSectionUp0" data="0">Up Section</div>
+        <div class="buttonDown" id="buttonSectionDown0" data="0">Down Section</div>
+        <label for="duration0" id="durationLabel0">Duration:</label>
+    <input type="number" value="1" min="1" name="duration0" id="duration0">
+    <ul id="typeItem0">
+      <li class="typeHolder" id="typeHolder0.0"><select name="typeItem0.0" id="typeItem0.0">
+        <option value="1">near</option>
+        <option value="2">far</option>
+        <option value="3">quiet</option>
+        <option value="4">loud</option>
+        <option value="5">rhythmic</option>
+        <option value="8">sustained</option>
+        <option value="10">a</option>
+        <option value="11">b</option>
+        <option value="12">c</option>
+        <option value="13">d</option>
+        <option value="14">e</option>
+        <option value="15">a</option>
+        <option value="16">a</option>
+        <option value="17">coconut</option>
+        <option value="18">coconut</option>
+        <option value="19">coconut</option>
+        <option value="20">crab cakes</option>
+        <option value="21">chocolate</option>
+        <option value="22">chocolate </option>
+        <option value="23">chocolate </option>
+        <option value="24">blueberry</option>
+        <option value="25">ada</option>
+        <option value="26">ada</option>
+        <option value="27">blueberry</option>
+        <option value="28">rara</option>
+        <option value="29">rara</option>
+        <option value="30">1</option>
+        <option value="31">r</option>
+        <option value="32">erre</option>
+        <option value="33">rwarsda</option>
+        <option value="34">rwarsda</option>
+        <option value="35">rwarsda</option>
+        <option value="36">rwarsda</option>
+        <option value="37">awea</option>
+        <option value="38">dadw</option>
+        <option value="39">raradad</option>
+        <option value="40">dadw</option>
+        <option value="41">null</option>
+        <option value="42">lobster</option>
+      </select>
+      <span class="buttonDelete" id="typeItemDelete0.0">Delete</span>
+    </li>
+  </ul>
+    <li id="typeItemEnd0"><span class="buttonAdd" id="typeAdd0">Add Type</span></li>-->
+
+
+
+
+
+  </div>
+  <div class="draggable" draggable="true">TEST3
+
+    <!--<ul id="section">
+      <li id="sectionItem0">
+        <div class="buttonDelete" id="buttonDeleteSection0" data="0">Delete Section</div>
+        <div class="buttonUp" id="buttonSectionUp0" data="0">Up Section</div>
+        <div class="buttonDown" id="buttonSectionDown0" data="0">Down Section</div>
+        <label for="duration0" id="durationLabel0">Duration:</label>
+    <input type="number" value="1" min="1" name="duration0" id="duration0">
+    <ul id="typeItem0">
+      <li class="typeHolder" id="typeHolder0.0"><select name="typeItem0.0" id="typeItem0.0">
+        <option value="1">near</option>
+        <option value="2">far</option>
+        <option value="3">quiet</option>
+        <option value="4">loud</option>
+        <option value="5">rhythmic</option>
+        <option value="8">sustained</option>
+        <option value="10">a</option>
+        <option value="11">b</option>
+        <option value="12">c</option>
+        <option value="13">d</option>
+        <option value="14">e</option>
+        <option value="15">a</option>
+        <option value="16">a</option>
+        <option value="17">coconut</option>
+        <option value="18">coconut</option>
+        <option value="19">coconut</option>
+        <option value="20">crab cakes</option>
+        <option value="21">chocolate</option>
+        <option value="22">chocolate </option>
+        <option value="23">chocolate </option>
+        <option value="24">blueberry</option>
+        <option value="25">ada</option>
+        <option value="26">ada</option>
+        <option value="27">blueberry</option>
+        <option value="28">rara</option>
+        <option value="29">rara</option>
+        <option value="30">1</option>
+        <option value="31">r</option>
+        <option value="32">erre</option>
+        <option value="33">rwarsda</option>
+        <option value="34">rwarsda</option>
+        <option value="35">rwarsda</option>
+        <option value="36">rwarsda</option>
+        <option value="37">awea</option>
+        <option value="38">dadw</option>
+        <option value="39">raradad</option>
+        <option value="40">dadw</option>
+        <option value="41">null</option>
+        <option value="42">lobster</option>
+      </select>
+      <span class="buttonDelete" id="typeItemDelete0.0">Delete</span>
+    </li>
+  </ul>
+    <li id="typeItemEnd0"><span class="buttonAdd" id="typeAdd0">Add Type</span></li>-->
+
+
+
+
+
+
+  </div>
+</div>
+</ul>
+<input type="submit" value=" Submit " name="submit"><br>
+</div>
+
+</form> 
+
+<script src="script.js" defer></script>
+<script src="music_form_add.js"></script>
+<p><a href="index.php">Menu</a></p>
+<footer>
+	<button class="next"><a href="#">Next</a></button>
+</footer>
+
+
+</body>
+</html>
